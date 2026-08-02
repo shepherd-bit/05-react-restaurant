@@ -5,21 +5,21 @@ import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa';
 
 // 15 Team Members Data with exact image paths
 const teamMembers = [
-  { id: 1, name: 'Nicole Hall', role: 'Executive Head Chef', image: '/our-team/team-member-1.webp' },
-  { id: 2, name: 'Leo Smith', role: 'Master Pitmaster', image: '/our-team/team-member-2.avif' },
-  { id: 3, name: 'Kimberly Jackson', role: 'Head Mixologist', image: '/our-team/team-member-3.jpg' },
-  { id: 4, name: 'Michael Stewart', role: 'Sous Chef', image: '/our-team/team-member-4.jpg' },
-  { id: 5, name: 'Samantha Reed', role: 'Pastry Chef', image: '/our-team/team-member-5.jpg' },
-  { id: 6, name: 'David Miller', role: 'Sommelier', image: '/our-team/team-member-6.jpg' },
-  { id: 7, name: 'Elena Rostova', role: 'General Manager', image: '/our-team/team-member-7.jpg' },
-  { id: 8, name: 'Marcus Vance', role: 'Senior Grill Artisan', image: '/our-team/team-member-8.jpg' },
-  { id: 9, name: 'Chloe Bennett', role: 'Floor Supervisor', image: '/our-team/team-member-9.jpg' },
-  { id: 10, name: 'Julian Thorne', role: 'Lead Bartender', image: '/our-team/team-member-10.jpg' },
-  { id: 11, name: 'Amara Okafor', role: 'Prep Specialist', image: '/our-team/team-member-11.PNG' },
-  { id: 12, name: 'Carlos Mendez', role: 'Asado Pitmaster', image: '/our-team/team-member-12.jpg' },
-  { id: 13, name: 'Sophie Laurent', role: 'VIP Hostess', image: '/our-team/team-member-13.avif' },
-  { id: 14, name: 'Lucas Wright', role: 'Artisan Bread Baker', image: '/our-team/team-member-14.jpg' },
-  { id: 15, name: 'Isabella Garcia', role: 'VIP Event Coordinator', image: '/our-team/team-member-15.avif' },
+  { id: 1, name: 'Nicole Hall', role: 'Executive Head Chef', image: './our-team/team-member-1.webp' },
+  { id: 2, name: 'Leo Smith', role: 'Master Pitmaster', image: './our-team/team-member-2.avif' },
+  { id: 3, name: 'Kimberly Jackson', role: 'Head Mixologist', image: './our-team/team-member-3.jpg' },
+  { id: 4, name: 'Michael Stewart', role: 'Sous Chef', image: './our-team/team-member-4.jpg' },
+  { id: 5, name: 'Samantha Reed', role: 'Pastry Chef', image: './our-team/team-member-5.jpg' },
+  { id: 6, name: 'David Miller', role: 'Sommelier', image: './our-team/team-member-6.jpg' },
+  { id: 7, name: 'Elena Rostova', role: 'General Manager', image: './our-team/team-member-7.jpg' },
+  { id: 8, name: 'Marcus Vance', role: 'Senior Grill Artisan', image: './our-team/team-member-8.jpg' },
+  { id: 9, name: 'Chloe Bennett', role: 'Floor Supervisor', image: './our-team/team-member-9.jpg' },
+  { id: 10, name: 'Julian Thorne', role: 'Lead Bartender', image: './our-team/team-member-10.jpg' },
+  { id: 11, name: 'Amara Okafor', role: 'Prep Specialist', image: './our-team/team-member-11.PNG' },
+  { id: 12, name: 'Carlos Mendez', role: 'Asado Pitmaster', image: './our-team/team-member-12.jpg' },
+  { id: 13, name: 'Sophie Laurent', role: 'VIP Hostess', image: './our-team/team-member-13.avif' },
+  { id: 14, name: 'Lucas Wright', role: 'Artisan Bread Baker', image: './our-team/team-member-14.jpg' },
+  { id: 15, name: 'Isabella Garcia', role: 'VIP Event Coordinator', image: './our-team/team-member-15.avif' },
 ];
 
 export default function OurTeam() {
