@@ -8,9 +8,9 @@ import { FaStar, FaQuoteLeft } from 'react-icons/fa';
 // Point these to your image files in the public folder (e.g., "/reviews/review-1.jpg")
 // =========================================================================
 const reviewImages = {
-  reviewer1: "/reviews/review-1.jpg",
-  reviewer2: "/reviews/review-2.jpg",
-  reviewer3: "/reviews/review-3.jpg",
+  reviewer1: "./reviewers/review-1.avif",
+  reviewer2: "./reviewers/review-2.avif",
+  reviewer3: "./reviewers/review-3.avif",
 };
 
 const reviewsData = [
