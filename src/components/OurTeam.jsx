@@ -25,7 +25,6 @@ const teamMembers = [
 export default function OurTeam() {
   const containerRef = useRef(null);
   const trackRef = useRef(null);
-  const tweenRef = useRef(null);
 
   // Duplicate team list to guarantee seamless end-to-end tiling
   const infiniteList = [...teamMembers, ...teamMembers];
@@ -35,22 +34,19 @@ export default function OurTeam() {
       const track = trackRef.current;
       if (!track) return;
 
-      // Increased duration to 105 seconds (3x slower) for a ultra-smooth glide
-      tweenRef.current = gsap.to(track, {
+      // Unstoppable infinite linear marquee tween
+      gsap.to(track, {
         xPercent: -50,
         ease: 'none',
         duration: 105, 
-        repeat: -1,   // Infinite loop
+        repeat: -1,
       });
     },
     { scope: containerRef }
   );
 
-  const handleMouseEnter = () => tweenRef.current?.pause();
-  const handleMouseLeave = () => tweenRef.current?.play();
-
   return (
-    <section id="our-team" ref={containerRef} className="py-10 bg-[#fdfbf7] text-[#2d1b17] overflow-hidden">
+    <section id="our-team" ref={containerRef} className="pt-28 pb-10 bg-[#fdfbf7] text-[#2d1b17] overflow-hidden">
       <div className="w-full max-w-7xl mx-auto px-6 flex flex-col items-center">
         
         {/* Header */}
@@ -66,12 +62,8 @@ export default function OurTeam() {
           </p>
         </div>
 
-        {/* GSAP Marquee Container */}
-        <div 
-          className="w-full overflow-hidden py-6 cursor-pointer"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
+        {/* GSAP Marquee Container (Hover Pause Removed) */}
+        <div className="w-full overflow-hidden py-6">
           <div ref={trackRef} className="flex gap-8 w-max">
             {infiniteList.map((member, idx) => (
               <div
