@@ -2,7 +2,7 @@
 
 An interactive, responsive single-page web application for a high-end restaurant built with React, Vite, Tailwind CSS, and GSAP animations.
 
-[![Live Demo](public/preview.PNG)](https://shepherd-bit.github.io/05-react-restaurant/)
+Preview (./public/preview.PNG)
 
 👉 **[View Live Link](https://shepherd-bit.github.io/05-react-restaurant/)**
 
