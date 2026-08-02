@@ -50,7 +50,7 @@ export default function OurTeam() {
   const handleMouseLeave = () => tweenRef.current?.play();
 
   return (
-    <section id="our-team" ref={containerRef} className="py-28 bg-[#fdfbf7] text-[#2d1b17] overflow-hidden">
+    <section id="our-team" ref={containerRef} className="py-10 bg-[#fdfbf7] text-[#2d1b17] overflow-hidden">
       <div className="w-full max-w-7xl mx-auto px-6 flex flex-col items-center">
         
         {/* Header */}

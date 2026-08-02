@@ -82,7 +82,7 @@ export default function Menu() {
   );
 
   return (
-    <section id="menu" className="py-28 px-6 md:px-12 bg-white text-[#2d1b17]">
+    <section id="menu" className="py-15 px-6 md:px-12 bg-white text-[#2d1b17]">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         
         {/* Animated Section Header */}
